@@ -1,0 +1,7 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.show { display: block; }
+.hide { display: none; }
