@@ -1,0 +1,3 @@
+# Netlify redirects file
+
+/ /public/index.html
