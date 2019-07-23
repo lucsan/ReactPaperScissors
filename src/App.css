@@ -6,24 +6,48 @@
 .show { display: block; }
 .hide { display: none; }
 
-ul.button {
+#preamble {
+  text-align: center;
+}
+
+#arena {
+  background-color: #e6fff9;
+}
+
+#arena button {
+  border-radius: 12px;
+}
+
+#arena button.player {
+  border-radius: 25px;
+  background-color: #cceeffaa;
+}
+
+ul li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 li button {
-  width: 10%;
+  width: 7%;
   height: 10%;
   font-size: 2em;
+  margin-bottom: 1%;
 }
 
 @media only screen and (max-width: 768px) {
   li button {
-    width: 80%;
+    width: 30%;
+  }
+
+  #preamble h3 span {
+    display: block;
   }
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
+
+
 }
